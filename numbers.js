@@ -1,3 +1,5 @@
+/* Раздел 1 */
+
 const temperature = 36.6789;
 console.log(temperature.toFixed(1));
 
@@ -13,5 +15,7 @@ console.log(isNaN("100" / 5));
 console.log(isNaN("сто" / 5));
 
 const Numbers = [14, -3, 77, 0, -100, 42];
-console.log(Math.max(Numbers...));
-console.log(Math.min(Numbers...));
+console.log(Math.max(...Numbers));
+console.log(Math.min(...Numbers));
+
+
